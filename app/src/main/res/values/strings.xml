@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="sample_string">Hey there! You\'re awesome :)</string>
+</resources>

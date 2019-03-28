@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="margins">25dp</dimen>
+    <dimen name="textSize">35sp</dimen>
+</resources>

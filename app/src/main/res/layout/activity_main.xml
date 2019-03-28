@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adil.discretezoomframelayout.DiscreteZoomFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zoomLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:maxValue="65"
+    app:minValue="14">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/sample_string"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="@dimen/margins"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+</com.adil.discretezoomframelayout.DiscreteZoomFrameLayout>
